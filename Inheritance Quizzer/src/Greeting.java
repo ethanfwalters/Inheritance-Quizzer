@@ -16,5 +16,7 @@ public class Greeting
 		int yOrN = userIn.nextInt();
 		if(yOrN == 2)
 			greetUser();
+		else
+			System.out.println("Awesome!");
 	}
 }
