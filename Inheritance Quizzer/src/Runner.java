@@ -13,7 +13,7 @@ public class Runner
 	{
 		createObjects();
 		Greeting.greetUser();
-		Greeting.checkUser();
+		//Greeting.checkUser();
 		askQuestions();
 		endGame();
 		
@@ -39,6 +39,8 @@ public class Runner
 		System.out.println();
 		System.out.println("A) The bird is walking! \nB) The bird is squeeling! \nC) The bird that can fly is choosing to walk, wow! \nD) Wow! the brid is flying, how majestic. \nE) The code will not run.");
 		String userAnswer = userIn.nextLine();
+		
+		userAnswer = userAnswer.toUpperCase();
 		
 		if(userAnswer.equals(theAnswers.get(question).getAnswer()))
 		{

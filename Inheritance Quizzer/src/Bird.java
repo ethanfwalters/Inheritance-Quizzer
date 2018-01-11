@@ -1,4 +1,4 @@
-
+/*
 public class Bird
 {
 	public Bird()
@@ -26,3 +26,4 @@ public class Flying extends Bird
 		System.out.println("Wow! the bird is flying, how majestic.");
 	}
 }
+*/
