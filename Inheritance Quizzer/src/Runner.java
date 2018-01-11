@@ -6,7 +6,7 @@ public class Runner
 	static int counter;
 	public static void main(String[] args) 
 	{
-		runAll();
+		runAll(); 
 	}
 
 	private static void runAll() 
