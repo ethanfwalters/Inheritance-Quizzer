@@ -60,9 +60,9 @@ public class Runner
 		theAnswers.add(new Answer("Flying x = new Flying();" , "walk();" , "C"));
 		theAnswers.add(new Answer("Flying x = new Flying();" , "squeels();" , "E"));
 		theAnswers.add(new Answer("Flying x = new Flying();" , "fly();" , "D"));
-		theAnswers.add(new Answer("Flying x = new Brid();" , "walk();" , "E"));
-		theAnswers.add(new Answer("Flying x = new Brid();" , "squeels();" , "E"));
-		theAnswers.add(new Answer("Flying x = new Brid();" , "fly();" , "E"));
+		theAnswers.add(new Answer("Flying x = new Bird();" , "walk();" , "E"));
+		theAnswers.add(new Answer("Flying x = new Bird();" , "squeels();" , "E"));
+		theAnswers.add(new Answer("Flying x = new Bird();" , "fly();" , "E"));
 		
 	}
 	
